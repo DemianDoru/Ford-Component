@@ -1,0 +1,65 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.my-card-wrapper {
+  border: 1px solid black;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container-navbar {
+  background: #14477d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.enter-container {
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo p img {
+  position: left;
+  width: 200px;
+}
+
+.container-navbar{
+  display: flex;
+  flex-direction: row;
+}
+.navbar-elements {
+  align-content: space-between;
+  padding: 10px;
+}
+.navbar-elements ul {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.navbar-elements ul li {
+  color: white;
+  padding-left: 20px;
+  }
+
+@media (max-width: 600px) {
+  .enter-container {
+    width: 80%;
+  }
+}
